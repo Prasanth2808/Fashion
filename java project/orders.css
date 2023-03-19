@@ -1,0 +1,42 @@
+div{
+    background-attachment: fixed;
+color: blue;
+font-size: xx-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+}
+    .baby{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+}
+.dress button{
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+/* button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.babydress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.babydress img{
+    margin: 40px;
+    height: 250px;
+    width: 250px;
+}
